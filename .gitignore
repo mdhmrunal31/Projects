@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore datasets
+job-buddy/data/*.csv
+
+# Ignore trained models
+job-buddy/src/models/*.pkl
+
+# Optional (recommended)
+__pycache__/
+*.log
+.env
